@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "simplycoins:item/special_coin_1_4_rare"
+  }
+}

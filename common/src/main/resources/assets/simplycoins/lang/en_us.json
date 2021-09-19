@@ -4,5 +4,25 @@
   "item.simplycoins.coin_2": "Golden Coin",
   "item.simplycoins.coin_3": "Diamond Coin",
   "item.simplycoins.coin_4": "Netherite Coin",
-  "item.simplycoins.coin_4.description": "The product of a few hours of grinding, or a few seconds of cheating"
+  "item.simplycoins.coin_4.description": "The product of a few hours of grinding, or a few seconds of cheating",
+
+  "word.simplycoins.commemorative_coin": "Commemorative Coin: no monetary value",
+  "item.simplycoins.special_coin_1_0": "§dAdventurer's Coin",
+  "item.simplycoins.special_coin_1_0.description": "A date is stamped on the back: 18/11/2011",
+  "item.simplycoins.special_coin_1_3": "§aTrader's Coin",
+  "item.simplycoins.special_coin_1_3.description": "A date is stamped on the back: 1/8/2012",
+  "item.simplycoins.special_coin_1_4": "§7Pretty Scary Coin",
+  "item.simplycoins.special_coin_1_4.description": "A date is stamped on the back: 25/10/2012",
+  "item.simplycoins.special_coin_1_4_rare": "§bVery Scary Coin",
+  "item.simplycoins.special_coin_1_4_rare.description": "A date is stamped on the back: 25/10/2012",
+  "item.simplycoins.special_coin_1_5": "§cRedstone Coin",
+  "item.simplycoins.special_coin_1_5.description": "A date is stamped on the back: 3/3/2013",
+  "item.simplycoins.special_coin_1_6": "§eHorse Coin",
+  "item.simplycoins.special_coin_1_6.description": "A date is stamped on the back: 1/7/2013",
+  "item.simplycoins.special_coin_1_9": "§5Combat Coin",
+  "item.simplycoins.special_coin_1_9.description": "A date is stamped on the back: 29/2/2016",
+  "item.simplycoins.special_coin_1_11": "§eExplorer's Coin",
+  "item.simplycoins.special_coin_1_11.description": "A date is stamped on the back: 10/8/2016",
+  "item.simplycoins.special_coin_1_12": "§cR§6a§ei§an§bb§do§5w §cC§6o§ei§an",
+  "item.simplycoins.special_coin_1_12.description": "A date is stamped on the back: 7/6/2017"
 }
