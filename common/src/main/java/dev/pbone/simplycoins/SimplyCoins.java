@@ -24,13 +24,13 @@ public class SimplyCoins {
     
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(MOD_ID, Registry.ITEM_REGISTRY);
     public static final RegistrySupplier<Item> COIN_1 = ITEMS.register("coin_1", () ->
-            new Item(new Item.Properties().tab(SimplyCoins.COINS_TAB).rarity(Rarity.COMMON)));
+            new CoinItem(new Item.Properties().tab(SimplyCoins.COINS_TAB).rarity(Rarity.COMMON), 1));
     public static final RegistrySupplier<Item> COIN_2 = ITEMS.register("coin_2", () ->
-            new Item(new Item.Properties().tab(SimplyCoins.COINS_TAB).rarity(Rarity.UNCOMMON)));
+            new CoinItem(new Item.Properties().tab(SimplyCoins.COINS_TAB).rarity(Rarity.UNCOMMON), 8));
     public static final RegistrySupplier<Item> COIN_3 = ITEMS.register("coin_3", () ->
-            new Item(new Item.Properties().tab(SimplyCoins.COINS_TAB).rarity(Rarity.RARE)));
+            new CoinItem(new Item.Properties().tab(SimplyCoins.COINS_TAB).rarity(Rarity.RARE), 64));
     public static final RegistrySupplier<Item> COIN_4 = ITEMS.register("coin_4", () ->
-            new Item(new Item.Properties().tab(SimplyCoins.COINS_TAB).rarity(Rarity.EPIC)));
+            new CoinItem(new Item.Properties().tab(SimplyCoins.COINS_TAB).rarity(Rarity.EPIC).fireResistant(), 512, true));
     
     public static void init() {
         ITEMS.register();
