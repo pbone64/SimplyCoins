@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "coin",
+  "ingredients": [
+    {
+      "item": "simplycoins:coin_2"
+    }
+  ],
+  "result": {
+    "item": "simplycoins:coin_1",
+    "count": 8
+  }
+}

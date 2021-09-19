@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "simplycoins",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Simply Coins",
+  "description": "Adds coins.",
   "authors": [
-    "Me!"
+    "pbone"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/Pbone3/SimplyCoins",
+    "issues": "https://github.com/Pbone3/SimplyCoins/issues"
   },
-  "license": "Insert License Here",
-  "icon": "assets/examplemod/icon.png",
+  "license": "MIT",
+  "icon": "assets/simplycoins/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.examplemod.fabric.ExampleModFabric"
+      "dev.pbone.simplycoins.fabric.SimplyCoinsFabric"
     ]
   },
   "depends": {
